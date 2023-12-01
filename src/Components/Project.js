@@ -17,49 +17,49 @@ const Project = () => {
 
         <div className='relative  rounded-xl flex flex-col justify-end items-center'>
             <img src={foodapp2} alt='cardpic' className='absolute h-full w-full rounded-xl hover:scale-105 duration-300'/>
-            <div className='z-10 flex flex-col md:flex-row space-x-10 items-center'>
-            <button className=' rounded-xl px-4 py-2 mb-2 bg-white/80 hover:bg-blue-500/60  text-black '><a href='https://foodapp-phi.vercel.app/' target='_blank' rel='noreferrer'>Website</a></button>
-            <button className=' rounded-xl px-4 py-2 mb-2 bg-white/80 hover:bg-blue-500/60  text-black'><a href='https://github.com/onclereg'  target='_blank' rel='noreferrer'>Code</a></button>
+            <div className='z-10 flex flex-row ml-10 space-x-10 items-center'>
+            <button className=' rounded-xl px-2 py-1 mb-2 bg-white/80 hover:bg-blue-500/60  text-black '><a href='https://foodapp-phi.vercel.app/' target='_blank' rel='noreferrer'>Website</a></button>
+            <button className='invisible md:visible rounded-xl px-2 py-1 mb-2 bg-white/80 hover:bg-blue-500/60  text-black'><a href='https://github.com/onclereg'  target='_blank' rel='noreferrer'>Code</a></button>
             </div>
           </div>
 
           <div className='relative  rounded-xl flex flex-col justify-end items-center'>
             <img src={tradeapp} alt='tradeapp' className='absolute h-full w-full rounded-xl hover:scale-105 duration-300'/>
-            <div className='z-10 flex flex-col md:flex-row space-x-10 items-center'>
-            <button className=' rounded-xl px-4 py-2 mb-2  bg-white/80 hover:bg-blue-500/60  text-black '><a href='https://tradeapp-roan.vercel.app/' target='_blank' rel='noreferrer'>Website</a></button>
-            <button className=' rounded-xl px-4 py-2 mb-2  bg-white/80 hover:bg-blue-500/60  text-black'><a href='https://github.com/onclereg'  target='_blank' rel='noreferrer'>Code</a></button>
+            <div className='z-10 flex ml-10 flex-row space-x-10 items-center'>
+            <button className=' rounded-xl px-2 py-1 mb-2  bg-white/80 hover:bg-blue-500/60  text-black '><a href='https://tradeapp-roan.vercel.app/' target='_blank' rel='noreferrer'>Website</a></button>
+            <button className='invisible md:visible rounded-xl px-2 py-1 mb-2  bg-white/80 hover:bg-blue-500/60  text-black'><a href='https://github.com/onclereg'  target='_blank' rel='noreferrer'>Code</a></button>
             </div>
           </div> 
 
           <div className='relative  rounded-xl flex flex-col justify-end items-center'>
             <img src={searchapp} alt='searchapp' className='absolute h-full w-full rounded-xl hover:scale-105 duration-300'/>
-            <div className='z-10 flex flex-col md:flex-row space-x-10 items-center'>
-            <button className=' rounded-xl px-4 py-2 mb-2  bg-white/80 hover:bg-blue-500/60  text-black '><a href='https://searchapp-plum.vercel.app/' target='_blank' rel='noreferrer'>Website</a></button>
-            <button className=' rounded-xl px-4 py-2 mb-2  bg-white/80 hover:bg-blue-500/60 text-black'><a href='https://github.com/onclereg'  target='_blank' rel='noreferrer'>Code</a></button>
+            <div className='z-10 flex ml-10 flex-row space-x-10 items-center'>
+            <button className=' rounded-xl px-2 py-1 mb-2  bg-white/80 hover:bg-blue-500/60  text-black '><a href='https://searchapp-plum.vercel.app/' target='_blank' rel='noreferrer'>Website</a></button>
+            <button className='invisible md:visible rounded-xl px-2 py-1 mb-2  bg-white/80 hover:bg-blue-500/60 text-black'><a href='https://github.com/onclereg'  target='_blank' rel='noreferrer'>Code</a></button>
             </div>
           </div>
 
           <div className='relative rounded-xl flex flex-col justify-end items-center'>
             <img src={cardpic} alt='cardpic' className='absolute h-full w-full rounded-xl hover:scale-105 duration-300'/>
-            <div className='z-10 flex flex-col md:flex-row space-x-10 items-center'>
-            <button className=' rounded-xl px-4 py-2 mb-2  bg-white/60 hover:bg-blue-500/60 text-black '><a href='https://profile-card-app-beta.vercel.app/' target='_blank' rel='noreferrer'>Website</a></button>
-            <button className=' rounded-xl px-4 py-2 mb-2  bg-white/60 hover:bg-blue-500/60 text-black'><a href='https://github.com/onclereg'  target='_blank' rel='noreferrer'>Code</a></button>
+            <div className='z-10 flex ml-10 flex-row space-x-10 items-center'>
+            <button className=' rounded-xl px-2 py-1 mb-2  bg-white/60 hover:bg-blue-500/60 text-black '><a href='https://profile-card-app-beta.vercel.app/' target='_blank' rel='noreferrer'>Website</a></button>
+            <button className='invisible md:visible rounded-xl px-2 py-1 mb-2  bg-white/60 hover:bg-blue-500/60 text-black'><a href='https://github.com/onclereg'  target='_blank' rel='noreferrer'>Code</a></button>
             </div>
           </div>
 
           <div className='relative  rounded-xl flex flex-col justify-end items-center'>
             <img src={foodpic} alt='food' className='absolute h-full w-full rounded-xl hover:scale-105 duration-300'/>
-            <div className='z-10 flex flex-col md:flex-row space-x-10 items-center'>
-            <button className=' rounded-xl px-4 py-2 mb-2  bg-white/60 hover:bg-blue-500/60  text-black '><a href='https://foodapp-phi.vercel.app/' target='_blank' rel='noreferrer'>Website</a></button>
-            <button className=' rounded-xl px-4 py-2 mb-2  bg-white/60 hover:bg-blue-500/60  text-black'><a href='https://github.com/onclereg'  target='_blank' rel='noreferrer'>Code</a></button>
+            <div className='z-10 flex ml-10 flex-row space-x-10 items-center'>
+            <button className=' rounded-xl px-2 py-1 mb-2  bg-white/60 hover:bg-blue-500/60  text-black '><a href='https://foodapp-phi.vercel.app/' target='_blank' rel='noreferrer'>Website</a></button>
+            <button className='invisible md:visible rounded-xl px-2 py-1 mb-2  bg-white/60 hover:bg-blue-500/60  text-black'><a href='https://github.com/onclereg'  target='_blank' rel='noreferrer'>Code</a></button>
             </div>
           </div>
 
           <div className='relative rounded-xl flex flex-col justify-end items-center overflow-hidden'>
             <img src={animalapp} alt='animalapp' className='absolute h-full w-full rounded-xl hover:scale-105 duration-300'/>
-            <div className='z-10 flex flex-col md:flex-row space-x-10 items-center'>
-            <button className=' rounded-xl px-4 py-2 mb-2 bg-white/60 hover:bg-blue-500/60  text-black '><a href='https://animal-app-gold.vercel.app/' target='_blank' rel='noreferrer'>Website</a></button>
-            <button className=' rounded-xl px-4 py-2 mb-2 bg-white/60 hover:bg-blue-500/60  text-black'><a href='https://github.com/onclereg'  target='_blank' rel='noreferrer'>Code</a></button>
+            <div className='z-10 flex ml-10 flex-row justify-end space-x-10 items-center'>
+            <button className=' rounded-xl px-2 py-1 mb-2 bg-white/60 hover:bg-blue-500/60  text-black '><a href='https://animal-app-gold.vercel.app/' target='_blank' rel='noreferrer'>Website</a></button>
+            <button className='invisible md:visible rounded-xl px-2 py-1 mb-2 bg-white/60 hover:bg-blue-500/60  text-black'><a href='https://github.com/onclereg'  target='_blank' rel='noreferrer'>Code</a></button>
             </div>
           </div>
 
